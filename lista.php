@@ -42,5 +42,10 @@ if(file_exists($arquivo)){
         </div>
         <a href="index.php" class="voltar">Voltar</a>
     </div>
+    
+    <footer>
+    <p>🐾 Projeto Conscientização de Animais Abandonados &copy; 2026</p>
+
+</footer>
 </body>
 </html>

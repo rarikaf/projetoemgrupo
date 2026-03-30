@@ -28,5 +28,8 @@ file_put_contents("dados.txt", $dados, FILE_APPEND);
         <a href="index.php" class="voltar">Voltar</a>
         <a href="lista.php" class="voltar">Ver Lista de Animais</a>
     </div>
+    <footer>
+    
 </body>
+
 </html>
