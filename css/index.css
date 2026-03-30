@@ -1,138 +1,120 @@
+/* RESET E TIPOGRAFIA */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 body {
-    background: #f0f4f8; /* fundo frio, elegante */
-    color: #333;
-    line-height: 1.7;
+    background: #f4f7fb; /* azul muito suave */
+    color: #2c3e50;
+    line-height: 1.6;
     padding: 20px;
 }
 
-/* ============================= */
-/* CABEÇALHO PRINCIPAL */
-/* ============================= */
+/* CONTAINER CENTRAL */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* TITULO PRINCIPAL */
 h1 {
     text-align: center;
-    font-size: 3rem;
-    color: #1e3a5f; /* azul escuro sofisticado */
-    margin-bottom: 20px;
+    font-size: 2.8rem;
+    color: #1e3a5f; /* azul escuro */
+    margin-bottom: 25px;
 }
 
-h2 {
-    color: #1e3a5f;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    border-left: 4px solid #4b6c8c; /* azul mais claro */
-    padding-left: 10px;
-}
-
-/* ============================= */
-/* PARÁGRAFOS E LISTAS */
-/* ============================= */
-p {
-    font-size: 1.1rem;
-    max-width: 800px;
-    margin: 0 auto 20px auto;
-    color: #2c3e50;
-}
-
-ul {
-    list-style-type: disc;
-    max-width: 800px;
-    margin: 10px auto 20px auto;
-    padding-left: 40px;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-/* ============================= */
-/* MENU PRINCIPAL */
-/* ============================= */
+/* MENU DE NAVEGAÇÃO */
 .menu {
     text-align: center;
-    margin: 30px 0;
+    margin-bottom: 40px;
 }
 
 .menu a {
     display: inline-block;
     text-decoration: none;
-    background: #4b6c8c; /* azul frio */
-    color: #f0f4f8; /* texto claro */
-    padding: 12px 30px;
-    margin: 5px;
-    border-radius: 25px;
+    color: #ffffff;
+    background: #4b6c8c;
+    padding: 12px 28px;
+    margin: 0 10px;
+    border-radius: 30px;
     font-weight: 600;
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .menu a:hover {
-    background: #1e3a5f; /* azul escuro elegante */
-    transform: translateY(-3px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    background: #1e3a5f;
 }
 
-/* ============================= */
-/* SEPARADOR HORIZONTAL */
-/* ============================= */
+/* SEÇÕES (TITULOS CENTRALIZADOS) */
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #1e3a5f;
+    margin: 40px 0 15px 0;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #4b6c8c;
+    margin: 8px auto 0 auto;
+    border-radius: 2px;
+}
+
+/* PARÁGRAFOS E LISTAS */
+p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0 auto 20px auto;
+    padding-left: 40px;
+    max-width: 700px;
+    color: #34495e;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* SEPARADOR */
 hr {
     border: 0;
     height: 2px;
     background: #4b6c8c;
-    margin: 40px auto;
+    margin: 50px auto;
     width: 50%;
 }
 
-/* ============================= */
-/* CARDS (OPCIONAL PARA LISTA DE ANIMAIS) */
-/* ============================= */
-.card {
-    background: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 15px auto;
-    max-width: 700px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
-}
-
-/* ============================= */
 /* RESPONSIVO */
-/* ============================= */
 @media (max-width: 768px) {
     h1 {
         font-size: 2.2rem;
     }
 
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        padding-left: 25px;
+    }
+
     .menu a {
-        padding: 10px 20px;
+        padding: 10px 18px;
+        margin: 5px;
         font-size: 0.95rem;
     }
-
-    p, ul, .card {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-
-/* ============================= */
-/* FUNDO SUAVE COM GRADIENTE */
-/* ============================= */
-body::before {
-    content: "";
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: linear-gradient(to bottom right, #e0efff, #f0f4f8);
-    z-index: -1;
 }

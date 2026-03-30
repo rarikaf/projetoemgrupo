@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ajuda Animal</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
