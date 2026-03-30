@@ -19,5 +19,37 @@
         <a href="lista.php">Ver Animais</a>
     </div>
 
+    <hr>
+
+    <!-- CONSCIENTIZAÇÃO -->
+    <h2> Impactos do Abandono</h2>
+
+    <ul>
+        <li>Sofrimento e morte de animais</li>
+        <li>Risco de transmissão de doenças</li>
+        <li>Aumento de animais nas ruas</li>
+        <li>Acidentes de trânsito</li>
+    </ul>
+
+    <h2> Posse Responsável</h2>
+
+    <p>Ter um animal é um compromisso para toda a vida. Antes de adotar:</p>
+
+    <ul>
+        <li>Garanta alimentação adequada</li>
+        <li>Leve ao veterinário</li>
+        <li>Ofereça abrigo e carinho</li>
+        <li>Nunca abandone</li>
+    </ul>
+
+    <h2> Como você pode ajudar?</h2>
+
+    <ul>
+        <li>Adote em vez de comprar</li>
+        <li>Divulgue animais para adoção</li>
+        <li>Denuncie maus-tratos</li>
+        <li>Apoie ONGs</li>
+    </ul>
+
 </body>
 </html>

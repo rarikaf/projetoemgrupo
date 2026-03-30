@@ -1,1 +1,2 @@
-v | Cachorro | v | v
+v | Cachorro | n |  b
+c | Cachorro | c | c
