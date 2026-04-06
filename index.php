@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ajuda Animal</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
@@ -50,6 +50,11 @@
         <li>Denuncie maus-tratos</li>
         <li>Apoie ONGs</li>
     </ul>
+    
+   <footer>
+    <p>🐾 Projeto Conscientização de Animais Abandonados &copy; 2026</p>
+</footer>
+
 
 </body>
 </html>

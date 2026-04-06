@@ -1,2 +1,4 @@
-v | Cachorro | n |  b
-c | Cachorro | c | c
+
+
+Pitoco | Cachorro | Pequeno | Rarika
+Fred | calango | muito rapido | 18999999999

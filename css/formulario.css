@@ -1,0 +1,117 @@
+/* ============================= */
+/* FORMULÁRIO CENTRALIZADO PROFISSIONAL */
+/* ============================= */
+
+body {
+    background: #f4f7fb; /* mesmo fundo frio do site */
+    color: #2c3e50;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+h2 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+/* FORMULÁRIO */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+input[type="text"],
+textarea,
+select {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd6e2;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #4b6c8c;
+    outline: none;
+}
+
+/* TEXTAREA */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* BOTÃO */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: #4b6c8c;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #1e3a5f;
+    transform: translateY(-2px);
+}
+
+/* LINK VOLTAR */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4b6c8c;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1e3a5f;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
+footer {
+    background-color: #1e3a5f; /* fundo azul escuro */
+    color: white;              /* letra branca */
+    text-align: center;         /* centraliza o conteúdo */
+    padding: 15px 0;            /* espaço vertical */
+    font-size: 14px;
+}
