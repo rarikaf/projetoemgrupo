@@ -78,10 +78,10 @@ a.voltar:hover {
     }
 }
 
+
 footer {
-    background-color: #1e3a5f; /* fundo azul escuro */
-    color: white;              /* letra branca */
-    text-align: center;         /* centraliza o conteúdo */
-    padding: 15px 0;            /* espaço vertical */
-    font-size: 14px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }

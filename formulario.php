@@ -3,22 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Animal</title>
-<<<<<<< HEAD
+
     <link rel="stylesheet" href="estilo.css">
-    <style>
-        /* Sugestão de estilo para o footer */
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            border-top: 1px solid #ccc;
-            text-align: center;
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
-=======
+    
     <link rel="stylesheet" href="css/formulario.css">
->>>>>>> b673ae2e2d813fe4f1d43a0db5df687a961868ef
+
 </head>
 <body>
     <div class="container">
@@ -52,15 +41,12 @@
 
             <button type="submit">Cadastrar</button>
 
-<<<<<<< HEAD
-    <br>
-    <a href="index.php">Voltar</a>
 
-    <footer>
-        <p>&copy; 2026 - Sistema de Cadastro de Animais. Todos os direitos reservados.</p>
-    </footer>
+    <br>
+    
+
     </body>
-=======
+
         </form>
 
         <a href="index.php">Voltar</a>
@@ -90,5 +76,4 @@
 </footer>
 </body>
 
->>>>>>> b673ae2e2d813fe4f1d43a0db5df687a961868ef
 </html>

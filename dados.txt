@@ -2,3 +2,6 @@
 
 Pitoco | Cachorro | Pequeno | Rarika
 Fred | calango | muito rapido | 18999999999
+f | Cachorro | f | f
+f | Cachorro | f | f
+f | Cachorro | f | f

@@ -29,7 +29,9 @@ file_put_contents("dados.txt", $dados, FILE_APPEND);
         <a href="lista.php" class="voltar">Ver Lista de Animais</a>
     </div>
     <footer>
-    
+    <p>🐾 Projeto Conscientização de Animais Abandonados &copy; 2026</p>
+
+</footer>
 </body>
 
 </html>

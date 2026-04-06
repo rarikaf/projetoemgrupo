@@ -51,9 +51,12 @@
         <li>Apoie ONGs</li>
     </ul>
     
-   <footer>
+  <footer>
     <p>🐾 Projeto Conscientização de Animais Abandonados &copy; 2026</p>
+
 </footer>
+</body>
+
 
 
 </body>
