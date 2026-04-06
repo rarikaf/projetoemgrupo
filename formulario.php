@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>Cadastro de Animal</title>
     <link rel="stylesheet" href="estilo.css">
+    <style>
+        /* Sugestão de estilo para o footer */
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
 
@@ -30,7 +41,11 @@
 
     </form>
 
+    <br>
     <a href="index.php">Voltar</a>
 
-</body>
+    <footer>
+        <p>&copy; 2026 - Sistema de Cadastro de Animais. Todos os direitos reservados.</p>
+    </footer>
+    </body>
 </html>
