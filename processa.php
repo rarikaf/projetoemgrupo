@@ -29,7 +29,8 @@ file_put_contents("dados.txt", $dados, FILE_APPEND);
         <a href="lista.php" class="voltar">Ver Lista de Animais</a>
     </div>
     <footer>
-    
+   <p>&copy; 2026 - Sistema de Cadastro de Animais. Todos os direitos reservados.<p>
+    <footer>
 </body>
 
 </html>

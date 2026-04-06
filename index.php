@@ -52,7 +52,7 @@
     </ul>
     
    <footer>
-    <p>🐾 Projeto Conscientização de Animais Abandonados &copy; 2026</p>
+    <p>&copy; 2026 - Sistema de Cadastro de Animais. Todos os direitos reservados.</p>
 </footer>
 
 
